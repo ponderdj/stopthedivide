@@ -27,15 +27,15 @@ define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
 // MySQL settings - You can get this info from your web host //
 if (WP_ENV == 'development') {
-    define('DB_NAME', 'stopthedivide');
+    define('DB_NAME', 'stopthedividetest');
     define('DB_USER', 'root');
     define('DB_PASSWORD', 'root');
     define('DB_HOST', 'localhost');
 } else {
-    define('DB_NAME', 'stopthedivide');
+    define('DB_NAME', 'stopthedividetest');
     define('DB_USER', 'root');
     define('DB_PASSWORD', 'root');
-    define('DB_HOST', 'mysql.stopthedivide.org');
+    define('DB_HOST', 'localhost');
 } 
 
 /** Database Charset to use in creating database tables. */
